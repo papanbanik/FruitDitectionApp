@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="400dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/andriod"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/usernameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="60dp"
+        android:background="#E1DFDF"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:hint="UserName"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/onlypasswordId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="60dp"
+        android:background="#DAD8D8"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:hint="password"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/material_on_primary_emphasis_high_type"
+        android:text="Submit"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>
