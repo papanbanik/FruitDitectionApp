@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
+    tools:context=".SignUp"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -17,7 +17,7 @@
         />
 
     <EditText
-        android:id="@+id/SignInEmail"
+        android:id="@+id/SignUpEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
@@ -29,7 +29,7 @@
 
     <EditText
         android:layout_marginTop="5dp"
-        android:id="@+id/SignInPassword"
+        android:id="@+id/SignUpPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -40,7 +40,7 @@
         android:textColor="@color/black" />
 
     <Button
-        android:id="@+id/SignInButton"
+        android:id="@+id/SignUpButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/material_on_background_disabled"
@@ -52,9 +52,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/SignUpText"
+        android:id="@+id/SignInText"
         android:gravity="center"
-        android:text="Are you not registered? Sign Up"
+        android:text="Are you already regisered? Sign in"
         />
 
     <ProgressBar

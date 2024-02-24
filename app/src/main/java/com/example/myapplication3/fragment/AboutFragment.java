@@ -45,20 +45,19 @@ public class AboutFragment extends Fragment implements OnMapReadyCallback {
         videoview.setMediaController(mediaController);
         videoview.start();
 
+
         // Initialize MapView
-
-
         return rootView;
     }
 
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
         gMap = googleMap;
-
-        LatLng chittagong = new LatLng(22.3569, 91.7832); // Chittagong's latitude and longitude
+        LatLng chittagong = new LatLng(22.3569, 91.7832);
         gMap.addMarker(new MarkerOptions().position(chittagong).title("Chittagong"));
-        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(chittagong, 12)); // Zoom level adjusted to show Chittagong
+        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(22.3569, 91.7832), 12f));
     }
+
 
 
 }

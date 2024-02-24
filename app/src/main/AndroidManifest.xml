@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" tools:ignore="CoarseFineLocation" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
@@ -15,9 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MLWithTensorFlowLite">
         <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
-            android:exported="false"
-           />
+            android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="true">
@@ -30,8 +35,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBKL5-citE9XGayOF4RHuVLi82K0b-Gke8"/>
-
+            android:value="AIzaSyCj248qHuOHi8NazsOHPy5rPDHfLf0uvls" />
     </application>
 
 </manifest>

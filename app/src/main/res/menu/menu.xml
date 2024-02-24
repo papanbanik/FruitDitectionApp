@@ -11,11 +11,7 @@
         android:title="About"
         android:icon="@drawable/baseline_add_home_work_24"
         />
-    <item
-        android:id="@+id/blog"
-        android:title="Blog"
-        android:icon="@drawable/common_google_signin_btn_icon_dark"
-        />
+
     <item
         android:id="@+id/fruits"
         android:title="Account"
